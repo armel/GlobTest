@@ -1,0 +1,11 @@
+Le rôle de la fonction foo semble être de traiter ces intervalles et de retourner 
+un nouveau tableau qui regroupe les intervalles fusionnés lorsque cela est possible.
+La fonction foo est une fonction qui prend en paramètre un ou plusieurs tableaux qui contient chaqu'un un paire de nombre x et y 
+Son role est de traiter ces paramétre en se basant sur le principe des intervale, c'est à dire de considérer chaque paire comme un intervale
+l'idée c'est de fusionner ces tableaux la si c'est possible et retourner un ou n tableaux
+
+ - si les deux intervales ne se chevauchent pas => on retourne les deux intervales telqu'il sont
+ - si les intervalent se chevauchent => on fusionne les tableaux avec la valeur minimal du tableau 1 et la valeur maximale du tableau 2
+ - si un intervale est inclus dans un autre intervale, on supprime l'intervale inclus
+ 
+    et ce cas est valable quelque soit il y a deux ou plusieurs intervales
