@@ -17,7 +17,11 @@ Le challenge, si vous l'acceptez, serait d'aider Echo à comprendre ce que fait 
 
 ### Question 1
 
-Expliquez, en quelques lignes, ce que fait cette fonction.
+Expliquez, en quelques lignes, ce que fait cette fonction: 
+
+### Reponse 1
+
+La fonction foo prend en entrée une liste d'intervalles représentés par des paires de nombres (début et fin). Elle trie ces intervalles par ordre croissant de début. Ensuite, elle fusionne les intervalles qui se chevauchent ou qui se touchent, produisant une liste résultante d'intervalles non chevauchants et triés. Enfin, la fonction retourne cette liste résultante. En termes simples, elle simplifie les plages en fusionnant celles qui se superposent ou se touchent.
 
 ### Question 2
 
@@ -31,6 +35,12 @@ Merci de fournir un fichier contenant :
 ### Question 3
 
 Précisez en combien de temps vous avez implémenté cette fonction.
+
+### Reponse 3
+
+L'implémentation de la fonction a été réalisée en environ 43 minutes, démontrant la facilité de comprendre le problème et de produire une solution fonctionnelle
+
+
 
 ## Merci
 
